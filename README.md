@@ -24,21 +24,15 @@ Ensure the following tools are installed and accessible in your environment:
 
 ## Usage
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
-
-2. **Configure Paths:**
+1. **Configure Paths:**
    Open the `.sh` scripts and update the directory paths (e.g., `guppy`, `wt_fast5`, `ref`) to match your local server environment.
 
-3. **Make scripts executable:**
+2. **Make scripts executable:**
    ```bash
    chmod +x basecalling.sh minimap2.sh
    ```
 
-4. **Run the scripts:**
+3. **Run the scripts:**
    ```bash
    # For Basecalling
    ./basecalling.sh
